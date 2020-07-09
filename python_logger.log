@@ -1,0 +1,6 @@
+INFO:root:Hello, world
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "log_file_logger.py", line 17, in <module>
+    exit(main())
+NameError: name 'main' is not defined
