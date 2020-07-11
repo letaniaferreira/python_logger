@@ -4,3 +4,27 @@ Traceback (most recent call last):
   File "log_file_logger.py", line 17, in <module>
     exit(main())
 NameError: name 'main' is not defined
+INFO:root:Hello, world
+INFO:root:I am a big error
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "log_file_logger.py", line 19, in <module>
+    exit(main())
+NameError: name 'main' is not defined
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "log_file_logger.py", line 23, in <module>
+    exit(main())
+NameError: name 'main' is not defined
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "log_file_logger.py", line 23, in <module>
+    exit(main())
+NameError: name 'main' is not defined
+INFO:root:Hello, world
+DEBUG:root:Protocol problem: This big problem, really big
+ERROR:root:Exception in main()
+Traceback (most recent call last):
+  File "log_file_logger.py", line 23, in <module>
+    exit(main())
+NameError: name 'main' is not defined

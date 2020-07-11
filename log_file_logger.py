@@ -10,7 +10,13 @@ root = logging.getLogger()
 root.setLevel(os.environ.get('LOGLEVEL', 'INFO'))
 root.addHandler(handler)
 
+error_handler = logging.getLogger()
+error_handler.setLevel(os.environ.get('LOGLEVEL', 'DEBUG'))
+error_handler.addHandler(handler)
+
 root.info("Hello, world")
+
+error_handler.debug('Protocol problem: This big problem, really big')
 
 try:
 
